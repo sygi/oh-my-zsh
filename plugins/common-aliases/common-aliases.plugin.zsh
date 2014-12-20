@@ -25,6 +25,8 @@ alias ..='cd ../'
 alias ...='cd ../../'
 alias ....='cd ../../../'
 alias .....='cd ../../../../'
+alias ......='cd ../../../../../'
+alias .......='cd ../../../../../../'
 
 # Command line head / tail shortcuts
 alias -g H='| head'
@@ -46,10 +48,10 @@ alias ff='find . -type f -name'
 alias h='history'
 alias hgrep="fc -El 0 | grep"
 alias help='man'
-alias j='jobs'
 alias p='ps -f'
 alias sortnr='sort -n -r'
 alias unexport='unset'
+alias o='xdg-open'
 
 alias whereami=display_info
 
@@ -74,11 +76,12 @@ if [ ${ZSH_VERSION//\./} -ge 420 ]; then
   for ft in $_media_fts ; do alias -s $ft=mplayer ; done
 
   #read documents
-  alias -s pdf=acroread
+  alias -s pdf=xdg-open
   alias -s ps=gv
   alias -s dvi=xdvi
   alias -s chm=xchm
   alias -s djvu=djview
+  alias -s wmv=xdg-open
 
   #list whats inside packed file
   alias -s zip="unzip -l"
