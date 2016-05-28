@@ -51,7 +51,7 @@ alias help='man'
 alias p='ps -f'
 alias sortnr='sort -n -r'
 alias unexport='unset'
-alias o='xdg-open'
+alias o='xdg-open-altered'
 
 alias whereami=display_info
 
