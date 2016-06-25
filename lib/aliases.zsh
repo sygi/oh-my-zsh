@@ -34,3 +34,8 @@ alias la='ls -lAh'
 alias afind='ack-grep -il'
 
 alias down='pandoc --from markdown+grid_tables+footnotes+tex_math_dollars -V geometry:margin=0.7in -s --highlight-style tango'
+
+alias o='xdg-open-altered'
+alias o.='xdg-open-altered .'
+
+
