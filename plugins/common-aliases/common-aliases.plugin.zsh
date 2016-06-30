@@ -48,7 +48,11 @@ alias whereami=display_info
 
 alias rm='rm -i'
 alias cp='cp -i'
-alias mv='mv -i'
+if [[ "$ENABLE_CORRECTION" == "true" ]]; then
+  alias mv='nocorrect mv -i'
+else
+  alias mv='mv -i'
+fi
 
 # zsh is able to auto-do some kungfoo
 # depends on the SUFFIX :)
