@@ -28,7 +28,7 @@ xkb_symbols "mine_dvp_num" {
     key <AD02>	{ [         w,          W,           oe,           OE ]	};
     key <AD03>	{ [         e,          E,      eogonek,      Eogonek ]	};
     key <AD04>	{ [         r,          R,    copyright,   registered ]	};
-    key <AD05>	{ [         t,          G,       ssharp,    trademark ]	};
+    key <AD05>	{ [         t,          T,       ssharp,    trademark ]	};
     key <AD08>	{ [         i,          I,   rightarrow,        U2194 ]	};
     key <AD09>	{ [         o,          O,       oacute,       Oacute ]	};
 
@@ -41,7 +41,6 @@ xkb_symbols "mine_dvp_num" {
     key <AC06>	{ [         h,          H, rightsinglequotemark, U2022 ] };
     key <AC07>	{ [         j,          J,        schwa,        SCHWA ]	};
     key <AC08>	{ [         k,          K,     ellipsis,  dead_stroke ]	};
-    key <TLDE>	{ [     grave, asciitilde,      notsign,    logicalor ]	};
 
     key <AB01>	{ [         z,          Z,    zabovedot,    Zabovedot ]	};
     key <AB02>	{ [         x,          X,       zacute,       Zacute ]	};
